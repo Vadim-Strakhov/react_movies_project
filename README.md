@@ -8,4 +8,4 @@
 **Для запуска финальной сборки проекта**
 Выполнить `npm run build`
 
-![React Фото Слайдер](react_mobile_app.png)
+![react_movies_project](react_movies_project.png)
