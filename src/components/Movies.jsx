@@ -15,7 +15,10 @@ export const Movies = (props) => {
 					);
 				})
 			) : (
-				<h4>Nothing found</h4>
+				<h4>
+					Упс, что-то пошло не так... <br />
+					Уже исправляю...
+				</h4>
 			)}
 		</div>
 	);
