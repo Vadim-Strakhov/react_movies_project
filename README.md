@@ -1,5 +1,8 @@
-# Приложение по поиску фильмов/сериалов на React и Materialize CSS
+## React приложение по поиску фильмов/сериалов
 
-- Названия при поиске следует писать на английском языке
+ - ### Проект доступен по ссылке - https://vadim-strakhov.github.io/react_movies_project/
+ - ### В проекте использован бесплатный API - https://www.omdbapi.com/
+ - ### В проекте реализован функционал поиска фильмов и сериалов с фильтрацией по категории. Названия следует писать на английском языке
+ - ### Технологии - `react`, `css`, `ajax`, `materialize-css` 
 
-![react_movies_project](react_movies_project.png)
+![react_showcase](movies.png)
