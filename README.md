@@ -3,6 +3,6 @@
 - ### Проект доступен по ссылке - https://vadim-strakhov.github.io/react_movies_project/
 - ### В проекте использован бесплатный API - https://www.omdbapi.com/
 - ### В проекте реализован функционал поиска фильмов и сериалов с фильтрацией по категории. Названия следует писать на английском языке
-- ### Технологии - `react`, `css`, `ajax`, `fetch-api`, `materialize-css`
+- ### Технологии - `react`, `css`, `typescript`, `materialize-css`
 
 ![](movies.png)
