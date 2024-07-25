@@ -1,19 +1,19 @@
-import React, { useState, useEffect } from 'react';
-import { Movies } from '../components/Movies';
-import { Preloader } from '../components/Preloader';
-import { Search } from '../components/Search';
+import { useState, useEffect } from "react";
+import { Movies } from "../components/Movies";
+import { Preloader } from "../components/Preloader";
+import { Search } from "../components/Search";
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = import.meta.env.VITE_APP_API_KEY;
 
 export const Main = () => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const searchMovies = (str, type = 'all') => {
+  const searchMovies = (str: string, type = "all") => {
     setLoading(true);
     fetch(
       `https://www.omdbapi.com/?i=tt3896198&apikey=${API_KEY}&s=${str}${
-        type !== 'all' ? `&type=${type}` : ''
+        type !== "all" ? `&type=${type}` : ""
       }`
     )
       .then((response) => response.json())
@@ -41,7 +41,7 @@ export const Main = () => {
   }, []);
 
   return (
-    <main className='container content'>
+    <main className="container content">
       <Search searchMovies={searchMovies} />
       {loading ? <Preloader /> : <Movies movies={movies} />}
     </main>
